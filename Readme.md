@@ -39,7 +39,7 @@ Create a reference to .Xmodmap in your .xinitrc
 
 	if [ -f ~/.Xmodmap ]; then
 	  xmodmap ~/.Xmodmap
-	  fi
+	fi
 If you don't want to restart X, you can manually run xmodmap ~/.Xmodmap after
 you create the first file.
 
