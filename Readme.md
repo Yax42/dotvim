@@ -28,5 +28,22 @@ and name.
 [l3]: https://gist.github.com/aliou/91851e576aa3917c0ab8
 
 
-## Remap
+##Remap Caps lock
 
+Caps lock is placed in a very convenient location and is very rarely used by
+most programmers. Reclaim this valuable real estate by mapping it to Esc as it
+was on the original HP 9000 ITF HIL keyboards. This is the approach I'm using
+right now, and I LOVE IT. Remapping the key on X Windows is done as follows.
+
+Create a file in your home directory called .Xmodmap
+
+	remove Lock = Caps_Lock
+	keysym Caps_Lock = Escape
+
+Create a reference to .Xmodmap in your .xinitrc
+
+	if [ -f ~/.Xmodmap ]; then
+	  xmodmap ~/.Xmodmap
+	  fi
+If you don't want to restart X, you can manually run xmodmap ~/.Xmodmap after
+you create the first file.
