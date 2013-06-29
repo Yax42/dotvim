@@ -3,3 +3,9 @@ nnoremap L :tabnext<cr>
 nnoremap J }
 nnoremap K {
 nnoremap B J
+
+nnoremap ; :
+vnoremap ; :
+
+vnoremap > >gv
+vnoremap < <gv
