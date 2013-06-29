@@ -43,12 +43,10 @@ Create a reference to .Xmodmap in your .xinitrc
 If you don't want to restart X, you can manually run xmodmap ~/.Xmodmap after
 you create the first file.
 
-[source][14]
+[source](http://dailyvim.blogspot.fr/2008/04/ways-to-avoid-esc-key.html)
 
 	xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 
 [l1]: https://github.com/aliou/dotvim/blob/master/vim/plugin/epitech/header.vim#L17-18
 [l2]: https://github.com/gmarik/vundle
 [l3]: https://gist.github.com/aliou/91851e576aa3917c0ab8
-[l4]: http://dailyvim.blogspot.fr/2008/04/ways-to-avoid-esc-key.html
-
