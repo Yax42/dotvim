@@ -1,0 +1,5 @@
+nnoremap H :tabprev<cr>
+nnoremap L :tabnext<cr>
+nnoremap J }
+nnoremap K {
+nnoremap B J
