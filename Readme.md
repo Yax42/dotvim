@@ -28,7 +28,7 @@ If you are an Epitech student, remember to change these [lines][l1] with your lo
 and name.
 
 ##Remap Caps lock
-Windows: http://www.randyrants.com/2006/07/sharpkeys_211/
+
 
 Caps lock is placed in a very convenient location and is very rarely used by
 most programmers. Reclaim this valuable real estate by mapping it to Esc as it
