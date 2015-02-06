@@ -1,6 +1,7 @@
 # Vim settings.
 
 ## Install
+### Linux
     
     git clone git://github.com/aliou/dotvim.git ~/.dotvim
     ln -s ~/.dotvim/vim ~/.vim
@@ -17,7 +18,10 @@ Or just run the following command:
     curl -fsSL https://raw.github.com/gist/91851e576aa3917c0ab8 | sh
 
 Read the script [here](https://gist.github.com/aliou/91851e576aa3917c0ab8).
-
+### Windows (Visual studio)
+	Install vsvim https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329/
+	Create _vimrc file in your USERPROFILE or HOME directory
+	
 ## Epitech
 
 If you are an Epitech student, remember to change these [lines][l1] with your login
