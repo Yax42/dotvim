@@ -3,6 +3,7 @@ nnoremap L :tabnext<cr>
 nnoremap J }
 nnoremap K {
 nnoremap B J
+nnoremap <c-n> :set hlsearch!<CR>
 
 nnoremap ; :
 vnoremap ; :
