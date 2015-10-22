@@ -5,6 +5,7 @@ nnoremap K {
 nnoremap B J
 nnoremap <c-n> :set hlsearch!<CR>
 nnoremap Q @
+nnoremap ! :%s /
 
 nnoremap ; :
 vnoremap ; :
