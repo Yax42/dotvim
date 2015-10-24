@@ -1,7 +1,7 @@
 nnoremap H :tabprev<cr>
 nnoremap L :tabnext<cr>
-nnoremap J }
-nnoremap K {
+nnoremap J 16j
+nnoremap K 16k
 nnoremap B J
 nnoremap <c-n> :set hlsearch!<CR>
 nnoremap Q @
